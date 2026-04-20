@@ -1,0 +1,19 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "apinotes": "https://apinotes.io/vocab/",
+    "id": "@id",
+    "type": "@type",
+    "name": "schema:name",
+    "description": "schema:description",
+    "specificationUrl": { "@id": "schema:url", "@type": "@id" },
+    "portalUrl": { "@id": "schema:mainEntityOfPage", "@type": "@id" },
+    "version": "schema:version",
+    "languages": "apinotes:languages",
+    "liveTestingEnabled": "apinotes:liveTestingEnabled",
+    "createdAt": { "@id": "dcterms:created", "@type": "xsd:dateTime" }
+  }
+}

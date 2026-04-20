@@ -1,0 +1,11 @@
+{
+  "id": "doc_payments_v2",
+  "name": "Payments API Documentation",
+  "description": "Interactive documentation portal for the Payments REST API generated from OpenAPI specification.",
+  "specificationUrl": "https://api.example.com/openapi.yaml",
+  "portalUrl": "https://docs.apinotes.io/payments-api",
+  "version": "2.0.0",
+  "languages": ["curl", "javascript", "python", "ruby", "php", "java", "go", "csharp"],
+  "liveTestingEnabled": true,
+  "createdAt": "2026-01-15T10:00:00Z"
+}

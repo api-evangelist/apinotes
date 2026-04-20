@@ -1,0 +1,62 @@
+vocabulary:
+  name: ApiNotes Vocabulary
+  description: Unified taxonomy mapping interactive API documentation resources, languages, and personas across the ApiNotes documentation platform
+  version: 1.0.0
+  updated: '2026-04-19'
+
+resources:
+  - name: Documentation
+    description: An interactive API documentation portal generated from an OpenAPI specification
+    properties:
+      - id
+      - name
+      - description
+      - specificationUrl
+      - portalUrl
+      - version
+      - languages
+      - liveTestingEnabled
+      - createdAt
+
+  - name: Endpoint
+    description: An API endpoint documented with interactive testing capabilities in the portal
+    properties:
+      - path
+      - method
+      - summary
+      - parameters
+      - requestBody
+      - responses
+
+  - name: CodeExample
+    description: A generated code snippet demonstrating how to call an endpoint in a specific language
+    properties:
+      - language
+      - code
+      - endpointId
+
+actions:
+  - name: Generate
+    description: Generate an interactive documentation portal from an OpenAPI or Swagger specification
+  - name: Share
+    description: Share the documentation portal URL with developers
+  - name: Test
+    description: Test API endpoints directly from the documentation interface
+
+personas:
+  - name: API Producer
+    description: A developer or team generating documentation portals for their APIs
+  - name: API Consumer
+    description: A developer reading documentation and testing API endpoints
+
+languages:
+  - curl
+  - javascript
+  - python
+  - ruby
+  - php
+  - java
+  - go
+  - csharp
+  - swift
+  - kotlin
