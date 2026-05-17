@@ -37,7 +37,7 @@ apis:
         url: https://apinotes.io/
       - type: JSONSchema
         url: json-schema/apinotes-documentation-schema.json
-      - type: JSON-LD
+      - type: JSONLD
         url: json-ld/apinotes-context.jsonld
 common:
   - type: Website
