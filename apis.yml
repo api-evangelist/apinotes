@@ -40,6 +40,8 @@ apis:
       - type: JSONLD
         url: json-ld/apinotes-context.jsonld
 common:
+  - type: DomainSecurity
+    url: security/apinotes-domain-security.yml
   - type: Website
     url: https://apinotes.io/
   - type: Documentation
@@ -64,6 +66,8 @@ common:
         description: Accelerate developer onboarding with interactive documentation featuring live testing and code samples.
       - name: API Reference Publishing
         description: Publish shareable API reference documentation without managing documentation infrastructure.
+  - url: https://apinotes.io/blog
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
