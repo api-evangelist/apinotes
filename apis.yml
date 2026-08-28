@@ -5,6 +5,17 @@ description: >-
   portals with live endpoint testing, code examples in multiple languages, and
   shareable documentation from OpenAPI and Swagger specifications.
 type: Index
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
