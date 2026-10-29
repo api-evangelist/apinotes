@@ -1,4 +1,4 @@
-# ApiNotes (apinotes)
+# ApiNotes
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,80 +66,137 @@
 
 ApiNotes is an interactive API documentation tool that generates developer portals with live endpoint testing, code examples in multiple languages, and shareable documentation from OpenAPI and Swagger specifications.
 
-**URL:** [https://apinotes.io/](https://apinotes.io/)
+**Areas:** API Reference · Developer Portal · Developer Tools · Documentation · Interactive · OpenAPI
 
-## Tags:
+## ApiNotes on APIs.io
 
- - API Reference, Developer Portal, Documentation, Interactive, OpenAPI
+Everything profiled for ApiNotes is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/apinotes/](https://apis.io/providers/apinotes/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (1)
 
-- **Created:** 2026-03-27
-- **Modified:** 2026-04-19
+- [ApiNotes](https://apis.io/apis/apinotes/apinotes/) — ApiNotes generates interactive REST API documentation from OpenAPI or Swagger specifications with live endpoint testing, code examples in 10+ languages, and…
 
-## APIs
+### Published properties
 
-### ApiNotes
-ApiNotes generates interactive REST API documentation from OpenAPI or Swagger specifications with live endpoint testing, code examples in 10+ languages, and a shareable developer portal.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-**Human URL:** [https://apinotes.io/](https://apinotes.io/)
+#### JSON Schema (1)
 
-#### Tags:
+The data models the API reads and writes.
 
- - API Reference, Developer Portal, Documentation, Interactive
+- [ApiNotes Documentation](https://apis.io/schemas/apinotes/apinotes-documentation/)
 
-#### Properties
+#### JSON Structure (1)
 
-- [Documentation](https://apinotes.io/)
-- [GettingStarted](https://apinotes.io/)
-- [JSONSchema](json-schema/apinotes-documentation-schema.json)
-- [JSON-LD](json-ld/apinotes-context.jsonld)
+Data models expressed in JSON Structure.
 
-## Common Properties
+- [Apinotes Documentation Structure](https://apis.io/json-structure/apinotes/apinotes-documentation-structure/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Apinotes Context](https://apis.io/jsonld/apinotes/apinotes-context/)
+
+#### Vocabulary (1)
+
+The provider's domain terms, defined.
+
+- [ApiNotes Vocabulary](https://apis.io/vocabularies/apinotes/apinotes-vocabulary/)
+
+#### Examples (1)
+
+Example requests and responses.
+
+- [Apinotes Documentation Example](https://apis.io/examples/apinotes/apinotes-documentation-example/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [ApiNotes — jsonschema rules](https://apis.io/rules/apinotes/apinotes-jsonschema-spectral-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Apinotes Domain Security](https://apis.io/security/apinotes/apinotes-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Apinotes Plans Pricing](https://apis.io/plans/apinotes/apinotes-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Apinotes Rate Limits](https://apis.io/rate-limits/apinotes/apinotes-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Apinotes Finops](https://apis.io/finops/apinotes/apinotes-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://apinotes.io/)
 - [Documentation](https://apinotes.io/)
+- [Blog](https://apinotes.io/blog)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Interactive Documentation | Generate interactive API documentation portals from OpenAPI or Swagger specifications with live endpoint testing. |
-| Multi-Language Code Examples | Automatically generate code examples in 10+ programming languages including curl, JavaScript, Python, Ruby, PHP, Java, and Go. |
-| Shareable Portals | Share documentation portals with developers via a public URL without requiring authentication. |
-| Live Endpoint Testing | Test API endpoints directly from the documentation interface with real request/response inspection. |
-| OpenAPI Support | Full support for OpenAPI 3.0, Swagger 2.0, and other API specification formats. |
+**Kin Score 18.1** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 17.9 |
+| Contract governance | 9.8 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 7.9 |
 
-| Name | Description |
-|------|-------------|
-| API Documentation Generation | Quickly generate a developer portal from an existing OpenAPI specification for external or internal APIs. |
-| Developer Onboarding | Accelerate developer onboarding with interactive documentation featuring live testing and code samples. |
-| API Reference Publishing | Publish shareable API reference documentation without managing documentation infrastructure. |
+**Agent readiness 0.6** — human-only
 
-## Artifacts
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-Machine-readable schemas organized by format.
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
 
-### JSON Schema
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/apinotes/](https://apis.io/providers/apinotes/).
 
-- [apinotes-documentation-schema.json](json-schema/apinotes-documentation-schema.json)
+## How this profile is made
 
-### JSON Structure
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-- [apinotes-documentation-structure.json](json-structure/apinotes-documentation-structure.json)
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for ApiNotes: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-### JSON-LD
+## Open an issue
 
-- [apinotes-context.jsonld](json-ld/apinotes-context.jsonld)
-
-## Vocabulary
-
-- [ApiNotes Vocabulary](vocabulary/apinotes-vocabulary.yaml) — Unified taxonomy mapping interactive API documentation resources, languages, and personas across the ApiNotes documentation platform
-
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/apinotes/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
